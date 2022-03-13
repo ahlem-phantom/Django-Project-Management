@@ -1,0 +1,20 @@
+
+<ul>
+    
+    {% for s in students %}
+        <li>{{s.first_name}}</li>
+        <li>{{s.last_name}}</li>
+        <li>{{s.email}}</li>
+        <hr>
+    {%endfor%}
+</ul>
+
+<ul>
+    
+    {% for c in coachs %}
+        <li>{{c.first_name}}</li>
+        <li>{{c.last_name}}</li>
+        <li>{{c.email}}</li>
+        <hr>
+    {%endfor%}
+</ul>
