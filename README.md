@@ -1,4 +1,4 @@
-# Django-Workshop
+# Project Management Workshop
 
 ## Setup
 
