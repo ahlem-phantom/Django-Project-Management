@@ -13,7 +13,7 @@ Create a virtual environment and activate it:
 
 ```sh
 $ virtualenv env 
-$ env/scripts/activate
+$ .\scripts\activate
 ```
 
 
