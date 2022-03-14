@@ -28,4 +28,4 @@ _In order to install the app you need to follow the instructions below :_
    ```sh
    (env)$ python manage.py runserver
    ```
-4. Open http://127.0.0.1:8000/ in the browser and that's it you can enjoy the project 🎉!
+4. Open http://127.0.0.1:8080/login/ in the browser and that's it you can enjoy the project 🎉!
