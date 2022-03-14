@@ -1,33 +1,31 @@
 # Project Management Workshop
+## ✨ Setup
+To get a local copy up and running follow these simple example steps.
 
-## Setup
+### 🚧 Prerequisites
 
-The first thing to do is to clone the repository:
-
-```sh
-$ git clone https://github.com/ahlem-phantom/Django-Workshop.git
-$ cd Django-Workshop
-```
-
-Create a virtual environment and activate it:
-
-```sh
-$ virtualenv env 
-$ .\scripts\activate
-```
-
-
-Note the `(env)` in front of the prompt. This indicates that this terminal
-session operates in a virtual environment set up by `virtualenv`.
-
-Install django for the first time if you don't have it :
+You may find below the list of things you need to use this project :
+- Install django for the first time if you don't have it 
 ```sh
 $ pip install django==3.2
 ```
 
-Once `pip` has finished downloading the dependencies:
-```sh
-(env)$ cd project
-(env)$ python manage.py runserver
-```
-And navigate to `http://127.0.0.1:8000/`.
+### 🛠 Installation
+
+_In order to install the app you need to follow the instructions below :_
+
+1. Clone the repo
+   ```sh
+   git clone git clone https://github.com/ahlem-phantom/Django-Project-Management.git
+   ```
+2. Create a virtual environment and activate it
+   ```sh
+   virtualenv env 
+   .\scripts\activate 
+   ```
+   
+3. Run the server on 
+   ```sh
+   (env)$ python manage.py runserver
+   ```
+4. Open http://127.0.0.1:8000/ in the browser and that's it you can enjoy the project 🎉!
