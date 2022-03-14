@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends "base.html" %}
+
+{% block content %}
+
+    <form action="" method="post">
+         {% csrf_token %}
+       <!--  <input type="text" name="first_name" placeholder="Votre prenom">
+        <input type="text" name="last_name" placeholder="Votre nom">
+        <input type="email" name="email" placeholder="Votre email">
+        <input type="submit"> -->
+    {{ form }}
+    <input type="submit">
+    </form>
+{% endblock content %}
+</body>
+</html>
